@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+#nav{
+    position: fixed;
+    z-index: 1;
+}
+nav {
+    width: 100vw !important;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+#nav-section{
+    background-image: url('https://images.unsplash.com/photo-1589578036109-592d4dadb148?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    height: 800px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    overflow-y: hidden;
+    font-family: 'Amatic SC', cursive;
+    color: #9ACD32;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 30px;
+}
+#logo > span{
+    color: black;
+}
+.navbar-nav{
+    padding-left: 35%;
+    font-size: 0.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home{
+    color: #9ACD32 !important;
+}
+.nav-link {
+    padding-right: 16px !important;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link:hover{
+    color: #9ACD32 !important;
+}
+#nav-text{
+    padding: 180px 0 0 50px;
+}
+#nav-text > h4{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-text > h1{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 8px 0 10px 0;
+}
+#nav-text > h6{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px 8px 10px;
+    background-color: green;
+    color: white;
+    width: fit-content;
+    font-size: 1.4rem;
+}
+
+/* ABOUT US SECTION */
+#about-us{
+    width: 100vw;
+    height: 650px;
+    background-color: white;
+    padding: 120px 0px 80px 80px;
+}
+
+.about-us-headings{
+    font-family: 'Amatic SC', cursive;
+    color: #9ACD32;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    overflow-y: hidden;
+}
+
+#skills{
+    padding-left: 150px;
+}
+
+td{
+    padding-bottom: 15px;
+}
+
+
+/* SERVICES SECTION  */
+#services{
+   background-image: url('../images/background1.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   width: 100%;
+   height: auto;
+   padding: 80px 0 50px 0;
+}
+#services-buttons{
+    padding-top: 80px;  
+}
+
+.bespoke-buttons{
+    border-radius: 5px;
+    height: 50px;
+    width: 45%;
+    border: 1px solid white;
+    margin-bottom: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bespoke-buttons:first-child{
+    background-color: rgb(243, 224, 50);
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid greenyellow;
+}
+
+#last{
+    border-top: 1px solid white; 
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 0;
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+}
+
+#last:hover{
+    background-color: white;
+    color: black;
+}
+#services-buttons{
+    width: 50vw;
+    margin: auto;
+}
+
+#services-wihite-box{
+    background-color: white;
+    width: 60vw;
+    height: 180px;
+    margin: auto;
+    padding: 35px;
+}
+
+#services-wihite-box > img{
+    float: left;
+    padding-left: 35px;
+}
+
+#services-wihite-box > div{
+    float: right;
+    overflow-y: hidden;
+    width: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9rem;
+}
+
+#services-paragraphs > p:first-child{
+    font-weight: bolder;
+}
+#clear{
+    clear: both;
+}
+/* OUR CUSTOMERS SECTION */
+#our-customers{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    padding: 90px 40px 20px 100px;
+}
+#our-clients-logo{
+    padding: 60px;
+}
+.clients-logo{
+    padding-bottom: 30px;
+}
+#our-clients-logo > img{
+    width: 180px;
+    margin-right: 50px;
+}
+
+
+/* TRAINING SECTION */
+#training{
+    background-image: url('https://images.unsplash.com/photo-1565688280018-b7893e3c9175?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1265&q=80');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#training-heading{
+    padding-bottom: 40px;
+}
+#sub-training-can{
+    width: 70%;
+    height: auto;
+    background-color: rgb(247, 244, 244);
+    margin: auto;
+}
+.accordion{
+    height: auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: #696969;
+    margin-bottom: 15px;
+   border-radius: 3px;
+}
+
+.accordion:hover{
+    color: white;
+}
+.accordion > h5{
+    overflow-y: hidden;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.accordion > h5>span{
+    padding-right: 20px;
+}
+
+.active:hover{
+    background-color: #9ACD32;
+}
+.courses{
+    margin-left: 40px;
+    overflow-y: hidden;
+    display: none;
+}
+
+.unhide{
+    display: block;
+    padding-bottom: 180px;
+}
+.course-list{
+    margin-left: 60px ;
+}
+
+/* OUR WORK SECTION */
+#our-work{
+    width: 100vw;
+    height: auto;
+    padding: 50px 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.ours{
+    padding-bottom: 30px;
+}
+
+.ourss{
+    padding-top: 30px;
+}
+
+#our-work > div, h4{
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    overflow: hidden;
+    padding: 15px 0 10px 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.sub-training-heading{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.our-work-images{
+    width: 80%;
+    height: 70%;
+    overflow: hidden;
+    margin-right: 0;
+    
+    
+}
+.our-work-sub{
+    width: 100vw;
+    height: auto;
+    margin-left: 70px;
+}
+
+
+/* FOOTER SECTION */
+footer{
+    background-image: url('https://images.unsplash.com/photo-1581913524557-128eedd5871a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: auto;
+    color: white;
+    padding: 30px;
+}
+
+.footer-middle{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.footer-content{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.contact{
+    padding-bottom: 20px;
+}
+.footer-content > h4{
+    text-align: center !important;
+    font-weight: bold;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    
+}
+
+.footer-content > p{
+    font-family: 18px 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+}
+.footer-content > a{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-content > a:hover{
+    font-size: 16px;
+}
+#email{
+    font-size: 0.6rem;
+}
+#copy-right{
+    padding-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+#copy-right > .fab{
+    padding-right: 25px;
+    float: right;
+}
+.copyright{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    color: white;
+    padding: 10px;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 500px){
+    *{
+        text-align: center;
+        margin: auto;
+    }
+#services{
+    height: auto;
+}
+    .bespoke-buttons{
+        width: auto;
+        height: auto;
+    }
+    #last{
+        width: 160px;
+        height: 50px;
+    }
+    #services-wihite-box{
+        height: auto;
+    }
+
+    #our-clients-logo{
+        margin: auto;
+       padding-left: 0;
+    }
+    #our-work{
+     margin: auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    .courses, dt, dd{
+        text-align: left;
+        margin-left: 0;
+        padding-left: 5px;
+    }
+}
