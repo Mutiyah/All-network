@@ -25,6 +25,7 @@ nav {
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 #logo{
     overflow-y: hidden;
