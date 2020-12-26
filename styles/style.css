@@ -9,6 +9,7 @@
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+
 #nav{
     position: fixed;
     z-index: 1;
@@ -80,7 +81,7 @@ nav {
     width: 100vw;
     height: 650px;
     background-color: white;
-    padding: 120px 0px 80px 80px;
+    padding: 120px 80px 80px 80px;
 }
 
 .about-us-headings{
